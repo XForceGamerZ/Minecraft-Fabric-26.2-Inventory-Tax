@@ -3,7 +3,8 @@
 	"package": "it.inventorytax.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"TaxMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
