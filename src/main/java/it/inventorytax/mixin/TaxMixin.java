@@ -40,11 +40,21 @@ public class TaxMixin {
             atSecond = false; // Not At Second
         }
 
+
+
+
+        // Change Setting Here
+
         int taxIntervalSeconds = 10; // Delay For Another Tax Season
 
-        int removeItemCount = 1; // How Much Item To Remove
+        int removeItemCount = 1; // How Much Item To Remove Per Tax Interval Second
 
         int itemLimit = 64 * 6; // When Inventory Has Exceeded This Amount Of Item. e.g. 64 * 6 = 6 stack (1 stack = 64 item)
+
+
+
+
+
 
         if (atSecond && second >= taxIntervalSeconds) { // At Second And Reach Reset Second
 
